@@ -8,7 +8,7 @@ function makeYellowGreen() {
 // onclick with function by getting element by id in js
 const makeCadetBlueButton = document.getElementById("make-cadetblue");
 
-makeCadetBlueButton.onclick = makeCadetBlue;
+makeCadetBlueButton.onclick = makeCadetBlue;//can't use makeCadetBlue(). be careful. because it will assign function value on loading web page
 
 function makeCadetBlue() {
   document.body.style.backgroundColor = "cadetblue";
